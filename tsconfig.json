@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "allowJs":true,
+    "module": "esnext",
+    "target": "es5",
+    "sourceMap": true,
+    "lib": [
+      "dom", "webworker", "es2015", "es2016", "es2017", "dom.iterable"
+    ]
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}

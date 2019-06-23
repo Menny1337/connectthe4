@@ -1,0 +1,59 @@
+div#game {
+  flex-direction: row;
+  display: flex;
+  justify-content: center; }
+  div#game .row {
+    display: flex;
+    background: #1c62f1;
+    flex-direction: column-reverse;
+    box-shadow: 10px 10px 0 0 #30343d; }
+    div#game .row:hover {
+      background: #457ef1; }
+    div#game .row .square-con {
+      position: relative;
+      min-width: 100px;
+      flex-grow: 1;
+      box-sizing: border-box;
+      border-radius: 100%;
+      border: 4px solid #1a5cd8;
+      overflow: hidden; }
+      div#game .row .square-con .square {
+        background: #93ade1;
+        width: 100%;
+        padding-top: 100%;
+        /* 1:1 Aspect Ratio */
+        box-shadow: inset 0px -3px 20px 1px #61708d; }
+        div#game .row .square-con .square span {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          border-radius: 100%;
+          box-sizing: border-box; }
+          div#game .row .square-con .square span.player-1 {
+            background: #d22435;
+            border: 5px solid #782b30; }
+          div#game .row .square-con .square span.player-2 {
+            background: #fcd94d;
+            border: 5px solid #bfa43a; }
+
+h1#gameHeader {
+  text-align: center;
+  font-family: monospace;
+  font-weight: bolder;
+  font-size: 50px;
+  color: #fcd94d;
+  text-shadow: 2px 2px #d22435; }
+
+div#gameControls {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #fcd94d;
+  font-weight: bold; }
+
+body {
+  background-color: #5d9967;
+  font-family: monospace;
+  font-size: 18px; }
+
