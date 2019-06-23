@@ -1,4 +1,4 @@
 # connectthe4
 Connect the 4 Game Built using Typescript
 
-Ready to go just start server in lunch the browser.
+Everything is ready to go. Npm start and lunch the browser.
